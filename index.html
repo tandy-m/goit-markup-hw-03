@@ -4,68 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <!--roboto-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link class="roboto-regular" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<!--raleway-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link class="raleway" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize.git">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo">Web<span class="logo-type">Studio</span></a>
-        <ul>
-          <li class="logo-list" ><a class="logo-link" href="./index.html" >Studio</a></li>
-          <li class="logo-list"><a href="" class="logo-link">Portfolio</a></li>
-          <li class="logo-list"><a href="" class="logo-link">Contacts</a></li>
+      <div class="container">
+
+      <nav class="header-nav">
+        <a href="./index.html" class="logo">Web<span class="logo-part">Studio</span></a>
+        <ul class="nav-list">
+          <li class="nav-item" ><a class="nav-link" href="./index.html" >Studio</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Portfolio</a></li>
+          <li class="nav-item"><a href="" class="nav-link">Contacts</a></li>
         </ul>
       </nav>
       <!--contacts-->
       <address class="contacts">
-        <ul >
-          <li class="contacts-list"><a class="contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="contacts-list"><a class="contacts-list-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="contacts-list">
+          <li class="contacts-item"><a class="contacts-list-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="contacts-item"><a class="contacts-list-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+        </div>
     </header>
     <main>
-      <!--hero section-->
+      <!--hero section---1-->
       <section class="hero-section">
+        <div class="container">
         <h1 class="hero-section-title">Effective Solutions for Your Business</h1>
         <button type="button" class="button-hero">Order Service</button>
+     </div>
       </section>
-      <!--Our benefits-->
+      <!--Our benefits----2-->
       <section class="benefits">
-        <h2 >Our benefits</h2>
-        <ul>
-          <li class="first-feature-benefits">
+        <div class="container">
+        <h2 class="visually-hidden">Our benefits</h2>
+        <ul class="benefits-list">
+          <li class="feature-benefits">
             <h3 class="benefits-title">Strategy</h3>
             <p class="text-benefits">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="feature-benefits">
             <h3 class="benefits-title">Punctuality</h3>
             <p class="text-benefits" >
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="feature-benefits">
             <h3 class="benefits-title">Diligence</h3>
             <p class="text-benefits">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="feature-benefits">
             <h3 class="benefits-title">Technologies</h3>
             <p class="text-benefits">
               Design practice focused on digital experiences. We bring forth a
@@ -73,87 +74,94 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <!--Our team-->
+      <!--Our team----3-->
       <section class="our-team">
+        <div class="container">
         <h2 class="our-team-title">Our Team</h2>
-        <ul>
-          <li class="our-team-list">
+        <ul class="team-list">
+          <li class="team-item">
             <img width="264" src="./images/mark.jpg" alt="avatar" />
-            <h3 class="our-team-name">Mark Guerrero</h3>
-            <p class="our-team-text">Product Designer</p>
-          </li>
-          <li class="our-team-list">
+           <div class="worker">  <h3 class="workers-name">Mark Guerrero</h3>
+            <p class="workers-text">Product Designer</p>
+         </div> </li>
+          <li class="team-item">
             <img width="264" src="./images/ford.jpg" alt="avatar" />
-            <h3 class="our-team-name">Tom Ford</h3>
-            <p class="our-team-text">Frontend Developer</p>
-          </li>
-          <li class="our-team-list">
+           <div class="worker">  <h3 class="workers-name">Tom Ford</h3>
+            <p class="workers-text">Frontend Developer</p>
+         </div> </li>
+          <li class="team-item">
             <img width="264" src="./images/camila.jpg" alt="avatar" />
-            <h3 class="our-team-name">Camila Garcia</h3>
-            <p class="our-team-text">Marketing</p>
-          </li>
-          <li class="our-team-list">
+            <div class="worker"> <h3 class="workers-name">Camila Garcia</h3>
+            <p class="workers-text">Marketing</p>
+         </div> </li>
+          <li class="team-item">
             <img width="264" src="./images/daniel.jpg" alt="avatar" />
-            <h3 class="our-team-name">Daniel Wilson</h3>
-            <p class="our-team-text">UI Designer</p>
-          </li>
+            <div class="worker"> <h3 class="workers-name">Daniel Wilson</h3>
+            <p class="workers-text">UI Designer</p>
+         </div> </li>
         </ul>
+        </div>
       </section>
-      <!--Our Portfolio-->
-      <section>
+      <!--Our Portfolio---4--->
+      <section class="fourth-section">
+        <div class="container">
         <h2 class="portfolio-title">Our Portfolio</h2>
-        <ul>
-          <li>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
             <img src="./images/bankapp.jpg" alt="Banking App" 
                   width="360"
                height="300"/>
-            <h3 class="portfolio-name">Banking App</h3>
+            <div class="app"><h3 class="portfolio-name">Banking App</h3>
             <p class="portfolio-text">App</p>
-          </li>
-          <li>
+         </div> </li>
+          <li class="portfolio-item">
             <img  src="./images/payment.jpg" alt="Cashless Payment"
             width="360"
             height="300" />
-            <h3 class="portfolio-name">Cashless Payment</h3>
+           <div class="app"> <h3 class="portfolio-name">Cashless Payment</h3>
             <p class="portfolio-text">Marketing</p>
-          </li>
-          <li>
+          </div></li>
+          <li class="portfolio-item">
             <img  src="./images/desktop.jpg" alt="Meditation App" 
            width="360"
             height="300" />
-            <h3 class="portfolio-name">Meditation App</h3>
+           <div class="app"> <h3 class="portfolio-name">Meditation App</h3>
             <p class="portfolio-text">App</p>
-          </li>
-          <li>
+          </div></li>
+          <li class="portfolio-item">
             <img  src="./images/car.jpg" alt="Taxi Service" 
            width="360"
             height="300" />
-            <h3 class="portfolio-name">Taxi Service</h3>
+           <div class="app"> <h3 class="portfolio-name">Taxi Service</h3>
             <p class="portfolio-text">Marketing</p>
-          </li>
-          <li>
+          </div></li>
+          <li class="portfolio-item">
             <img src="./images/phopn.jpg" alt="Screen Illustrations" 
             width="360"
              height="300" />
-            <h3  class="portfolio-name">Screen Illustrations</h3>
+          <div class="app">  <h3  class="portfolio-name">Screen Illustrations</h3>
             <p class="portfolio-text">Design</p>
-          </li>
-          <li>
+         </div> </li>
+          <li class="portfolio-item">
             <img src="./images/woman.jpg" alt="Woman" width="360"
                 height="300" />
-            <h3 class="portfolio-name">Online Courses</h3>
+          <div class="app">  <h3 class="portfolio-name">Online Courses</h3>
             <p class="portfolio-text">Marketing</p>
-          </li>
+         </div> </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo">Web<span class="logo-type-footer">Studio</span></a>
+      <div class="container">
+      <a href="./index.html" class="logo-footer">Web<span class="logo-type-footer">Studio</span></a>
       <p class="text-footer">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
+      </div>
     </footer>
   </body>
 </html>
