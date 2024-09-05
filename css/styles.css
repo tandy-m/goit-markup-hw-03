@@ -147,7 +147,14 @@ body {
   gap: 24px;
 }
 .benefits-item {
-  width: calc((100% - 72px) / 4);
+  margin-block-start: 156px;
+  margin-block-end: ;
+  margin-inline-start: ;
+  margin-inline-end: ;
+  padding-inline-start: ;
+  unicode-bidi: isolate;
+
+  border-radius: 0px 0px 4px 4px;
 }
 .benefits-title {
   font-weight: 500;
