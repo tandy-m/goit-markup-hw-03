@@ -144,12 +144,13 @@ body {
   gap: 24px;
 }
 .feature-benefits {
-  margin-block-start: 156px;
+  /*margin-block-start: 156px;
   margin-block-end: ;
   margin-inline-start: ;
   margin-inline-end: ;
   padding-inline-start: ;
-  unicode-bidi: isolate;
+  unicode-bidi: isolate;*/
+  width: calc((100% - 72px) / 4);
 }
 .benefits-title {
   font-weight: 500;
@@ -234,6 +235,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
+  column-gap: 24px;
 }
 .portfolio-item {
   margin-block-start: 156px;
