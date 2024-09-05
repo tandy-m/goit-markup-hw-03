@@ -150,7 +150,7 @@ body {
   margin-inline-end: ;
   padding-inline-start: ;
   unicode-bidi: isolate;*/
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .benefits-title {
   font-weight: 500;
