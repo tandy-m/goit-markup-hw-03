@@ -34,6 +34,9 @@ body {
   display: flex;
   align-items: center;
 }
+.header-div {
+  display: flex;
+}
 /**--------------logo------------------**/
 .logo {
   list-style: none;
@@ -143,7 +146,7 @@ body {
   display: flex;
   gap: 24px;
 }
-.feature-benefits {
+.benefits-item {
   margin-block-start: 156px;
   margin-block-end: ;
   margin-inline-start: ;
