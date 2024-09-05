@@ -147,6 +147,7 @@ body {
   gap: 24px;
 }
 .benefits-item {
+  width: calc((100% - 72px) / 4);
   margin-block-start: 156px;
   margin-block-end: ;
   margin-inline-start: ;
