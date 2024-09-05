@@ -144,13 +144,12 @@ body {
   gap: 24px;
 }
 .feature-benefits {
-  /*margin-block-start: 156px;
+  margin-block-start: 156px;
   margin-block-end: ;
   margin-inline-start: ;
   margin-inline-end: ;
   padding-inline-start: ;
-  unicode-bidi: isolate;*/
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  unicode-bidi: isolate;
 }
 .benefits-title {
   font-weight: 500;
