@@ -153,6 +153,8 @@ body {
   margin-inline-end: ;
   padding-inline-start: ;
   unicode-bidi: isolate;
+
+  border-radius: 0px 0px 4px 4px;
 }
 .benefits-title {
   font-weight: 500;
