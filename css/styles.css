@@ -145,6 +145,7 @@ body {
 .benefits-list {
   display: flex;
   gap: 24px;
+  width: 100%;
 }
 .benefits-item {
   /* background-color: #2e2f42;*/
