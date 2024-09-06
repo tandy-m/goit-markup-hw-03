@@ -187,13 +187,14 @@ body {
   background-color: #ffffff;
 
   margin-block-start: 0px;
-  margin-block-end: 356px;
+  margin-block-end: 0px;
   margin-inline-start: 1px;
   margin-inline-end: 1px;
   padding-inline-start: 1px;
   unicode-bidi: isolate;
 
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 .worker {
   padding: 32px 0;
