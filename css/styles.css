@@ -147,19 +147,15 @@ body {
   gap: 24px;
 }
 .benefits-item {
-  /*margin-block-start: 156px;
-  margin-block-end: ;
-  margin-inline-start: ;
-  margin-inline-end: ;
-  padding-inline-start: ;
-  unicode-bidi: isolate;*/
-  display: block;
-  width: 264px;
-  height: 344px;
-  border: 0px;
-  padding: 0px;
-  margin-right: auto;
-  margin-left: auto;
+  background-color: #2e2f42;
+  margin-block-start: 0px;
+  margin-block-end: 1px;
+  margin-inline-start: 1px;
+  margin-inline-end: 1px;
+  padding-inline-start: 1px;
+  unicode-bidi: isolate;
+
+  border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .benefits-title {
