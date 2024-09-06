@@ -143,6 +143,7 @@ body {
   overflow: hidden;
 }
 .benefits-list {
+  display: flex;
   gap: 24px;
 }
 .benefits-item {
