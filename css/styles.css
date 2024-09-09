@@ -93,7 +93,8 @@ address {
   margin-left: auto;
 }
 .contacts-list-link {
-  padding: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: block;
 }
 /**--------------hero section------------------**/
@@ -261,6 +262,7 @@ address {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  a
 }
 .portfolio-name {
   font-size: 20px;
